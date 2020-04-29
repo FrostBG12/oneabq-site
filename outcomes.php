@@ -39,10 +39,9 @@
               </div>
             </div>
 
-              <div class="outcomeSplash">
-                <h1 class="outcomeHead"><b>Impacting Our Community</b></h1>
-                <p class="splashText2">Over the next few years, the One Albuquerque<br> Fund aims to fund critical 
-                  programs to address<br> some of the core challenges the city faces.</p>
+              <div class="outcomeSplash" style="background-image:url(<perch:content type="image">);">
+                <?php perch_content('splashHeading') class="outcomeHead"; ?>
+              <?php perch_content('splashText') class="splashtext2"; ?>
         
             </div>
 
