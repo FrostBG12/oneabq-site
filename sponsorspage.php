@@ -36,46 +36,32 @@
     </header>
   </div>
   <div class="sponsorSplash">
-    <h1 class="sponsHead"><b>Community Partners</b></h1>
-      <p class="splashText">Thank you to our partners in the community who are<br>
-                            stepping up to help meet Albuquerque’s challenges<br>
-                            head-on.<br></p>
+    <?php perch_content('splashHeading') class="sponsHead"; ?>
+    <?php perch_content('splashText') class="splashText"; ?>
   </div>
   <div class="sponsorLogos">
                    <center>
-                    <img src="allensigmon.png" id="logo">
-                    <img src="bcbs.png" id="logo">
-                    <img src="brownlogo.png" id="logo">
-                    <img src="bueno.png" id="logo">
-                    <img src="comcast.png" id="logo">
+                    <perch:content class="logo" type="image" label="Logo1">
+                    <perch:content class="logo" type="image" label="Logo2">
+                    <perch:content class="logo" type="image" label="Logo3">
+                    <perch:content class="logo" type="image" label="Logo4">
+                      
                 
-                    
-                    <img src="dions.png" id="logos">
-                    <img src="everest.png" id="logo">
-                    <img src="fresquez.png" id="logo">
-                    <img src="frontierlogo.png" id="logos">
-                    <img src="garcia.png" id="logo">
-
-
+                    <perch:content class="logo" type="image" label="Logo5">
+                    <perch:content class="logo" type="image" label="Logo6">
+                    <perch:content class="logo" type="image" label="Logo7">
+                    <perch:content class="logo" type="image" label="Logo8">
               
-                    <img src="gklogo.png" id="logo">
-                    <img src="goldenpridelogo.png" id="logo">
-                    <img src="goodmanrealtygroup.png" id="logo">
-                    <img src="jacobs.png" id="logo">
-                    <img src="lmlogo.png" id="logo">
+                    <perch:content class="logo" type="image" label="Logo9">
+                    <perch:content class="logo" type="image" label="Logo10">
+                    <perch:content class="logo" type="image" label="Logo11">
+                    <perch:content class="logo" type="image" label="Logo12">
                   
                 
-                    <img src="molz.png" id="logo">
-                    <img src="nca.png" id="logo">
-                    <img src="netflix.png" id="logo">
-                    <img src="nmgco.png" id="logo">
-                    <img src="rmci.png" id="logo">
-
-
-                    <img src="starpaving.png" id="logo">
-                    <img src="yannis.png" id="logo">
-                    <img src="yearout.png" id="logo">
-                    <img src="ym_logo.png" id="logo">
+                    <perch:content class="logo" type="image" label="Logo13">
+                    <perch:content class="logo" type="image" label="Logo14">
+                    <perch:content class="logo" type="image" label="Logo15">
+                    <perch:content class="logo" type="image" label="Logo16">
                  
                   </center> 
 
