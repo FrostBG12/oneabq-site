@@ -40,10 +40,9 @@
         </nav>
       </header>
     </div>
-    <div class="splashPage">
-    <h1 class="heading"><b>Our Initiatives</b></h1>
-    <p class="text">Over the next few years, the One Albuqueque Fund<br>aims to fund critical programs to address some of the<br>
-        core challenges our city faces.</p>
+    <div class="splashPage" style="background-image:url(<perch:content type="image">)">
+    <?php perch_content('splashHeading') class="heading"; ?>
+    <?php perch_content('splashText') class="text"; ?>
     </div>
     <div class="campaign">
         <div class="slideshow-container">
