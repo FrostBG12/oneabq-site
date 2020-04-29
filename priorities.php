@@ -41,9 +41,8 @@
       </header>
     </div>
     <div class="splashPage">
-    <h1 class="heading"><b>Our Initiatives</b></h1>
-    <p class="text">Over the next few years, the One Albuqueque Fund<br>aims to fund critical programs to address some of the<br>
-        core challenges our city faces.</p>
+    <?php perch_content('splashHeading') class="outcomeHead"; ?>
+     <?php perch_content('splashText') class="splashtext2"; ?>
     </div>
     <div class="campaign">
         <div class="slideshow-container">
