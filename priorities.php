@@ -40,83 +40,36 @@
         </nav>
       </header>
     </div>
-    <div class="splashPage">
-    <h1 class="heading"><b>Our Initiatives</b></h1>
-    <p class="text">Over the next few years, the One Albuqueque Fund<br>aims to fund critical programs to address some of the<br>
-        core challenges our city faces.</p>
+    <div class="splashPage" style="background-image:url(<perch:content type="image">)">
+    <?php perch_content('splashHeading') class="heading"; ?>
+<?php perch_content('splashText') class="text"; ?>
     </div>
     <div class="campaign">
         <div class="slideshow-container">
             <div class="mySlides">
                 <img src="police-icon.png" class="policeIcon">
-                <h2 class="heading2"> Officer <br>Recruitment</h2>
-                <p class="text2">Meeting the needs of our community to hire
-                     hundreds of new officers will require targeted
-                    marketing campaigns highlighting the benefits
-                    of joining a reformed Albuquerque Police
-                    Department as well as the benefits of joining
-                    the Albuquerque community at-large. This
-                     includes partnering with local entities to entice
-                    new recruits with incentives such as short-term
-                    housing loans, signing bonuses, day-care
-                     options, and moving support.</p>
-                
+                <?php perch_content('slide1Heading') class="heading2"; ?>
+                <?php perch_content('slide1Text') class="text2"; ?>
             </div>
           
             <div class="mySlides">
                 <img src="school-icon.png" class="school-icon">
-                <h2 class="heading2"> Youth<br> Opportunity </h2>
-                <p class="text2">
-                  While the City has only tangential ability to
-                  impact the classroom and school day, there is
-                  substantial opportunity to assist with before and
-                  after school programs, and summer programs.
-                  Efforts on this front will focus on utilizing the
-                  hundreds of programs and partnerships the city
-                  is already engaged with and providing scaling
-                  funds to fill out, and increase, opportunities at
-                  existing programs such as swim lessons, library
-                  programs, meals and nutrition, and open-space
-                  activities to name a few.</p>
+                <?php perch_content('slide2Heading') class="heading2"; ?>
+                <?php perch_content('slide2Text') class="text2"; ?>
                 
             </div>
           
             <div class="mySlides">
                 <img src="work-icon.png" class="work-icon">
-                <h2 class="heading2"> Workforce<br> Support </h2>
-                <p class="text2">
-                  To support our local small businesses, we need
-                  to ensure that they have the tools necessary to
-                  grow and expand. We will help establish a job-
-                  training fund that local businesses can apply to
-                  for assistance in hiring an additional employee
-                  – growing by an “increment of one.” We will
-                  also fund mentorship and advisement
-                  opportunities to help support entrepreneurs get
-                  off the ground, especially in the creative
-                  economy, by strengthening the newly created
-                  Job Training Albuquerque program and our
-                  partnerships with CNM.</p>
-                
+                <?php perch_content('slide3Heading') class="heading2"; ?>
+                <?php perch_content('slide3Text') class="text2"; ?>
             </div>
 
             <div class="mySlides">
                 <img src="handhouse-icon.png" class="handhouse-icon">
-                <h2 class="heading2"> Housing<br> Vouchers</h2>
-                <p class="text2">
-                The primary need of individuals and families
-                experiencing homelessness is a home.Once
-                housed, individuals and families can move
-                forward with their lives. It will take
-                approximately $13 million to fund enough
-                housing vouchers to make a meaningful,
-                permanent change in the homelessness
-                epidemic. The City is already investing millions
-                to help address these needs, but significant
-                support from the community is needed as well
-                to truly transform the current situation.</p>
-                
-              </div>
+                <?php perch_content('slide4Heading') class="heading2"; ?>
+                <?php perch_content('slide4Text') class="text2"; ?>
+             </div>
           
             <!-- Next/prev buttons -->
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
