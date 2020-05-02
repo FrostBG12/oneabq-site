@@ -39,9 +39,9 @@
     <video src="aboutVid.mp4" type="video/mp4" controls width="100%" poster="about-video-thumbnail.png"></video>
   </div>
   <div class="aboutABQ">
-    <img src="logofund.png" class="vertLogo">
+    <?php perch_content('splashImage'); ?>
   <div class="text">
-    <perch:content type="text" label="aboutText">
+    <?php perch_content('splashText'); ?>
   </div>
   </div>
   <div class="board">
