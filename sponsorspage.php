@@ -41,27 +41,27 @@
   </div>
   <div class="sponsorLogos">
                    <center>
-                    <perch:content class="logo" type="image" label="Logo1">
-                    <perch:content class="logo" type="image" label="Logo2">
-                    <perch:content class="logo" type="image" label="Logo3">
-                    <perch:content class="logo" type="image" label="Logo4">
+                    <img src="<perch:content class="logo" type="image" label="Logo1">">
+                    <img src="<perch:content class="logo" type="image" label="Logo2">">
+                    <img src="<perch:content class="logo" type="image" label="Logo3">">
+                    <img src="<perch:content class="logo" type="image" label="Logo4">">
                       
                 
-                    <perch:content class="logo" type="image" label="Logo5">
-                    <perch:content class="logo" type="image" label="Logo6">
-                    <perch:content class="logo" type="image" label="Logo7">
-                    <perch:content class="logo" type="image" label="Logo8">
+                    <img src="<perch:content class="logo" type="image" label="Logo5">">
+                    <img src="<perch:content class="logo" type="image" label="Logo6">">
+                    <img src="<perch:content class="logo" type="image" label="Logo7">">
+                    <img src="<perch:content class="logo" type="image" label="Logo8">">
               
-                    <perch:content class="logo" type="image" label="Logo9">
-                    <perch:content class="logo" type="image" label="Logo10">
-                    <perch:content class="logo" type="image" label="Logo11">
-                    <perch:content class="logo" type="image" label="Logo12">
+                    <img src="<perch:content class="logo" type="image" label="Logo9">">
+                    <img src="<perch:content class="logo" type="image" label="Logo10">">
+                    <img src="<perch:content class="logo" type="image" label="Logo11">">
+                    <img src="<perch:content class="logo" type="image" label="Logo12">">
                   
                 
-                    <perch:content class="logo" type="image" label="Logo13">
-                    <perch:content class="logo" type="image" label="Logo14">
-                    <perch:content class="logo" type="image" label="Logo15">
-                    <perch:content class="logo" type="image" label="Logo16">
+                    <img src="<perch:content class="logo" type="image" label="Logo13">">
+                    <img src="<perch:content class="logo" type="image" label="Logo14">">
+                    <img src="<perch:content class="logo" type="image" label="Logo15">">
+                    <img src="<perch:content class="logo" type="image" label="Logo16">">
                  
                   </center> 
 

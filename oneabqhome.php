@@ -58,12 +58,8 @@
   </div>
   <div class="col-md-4">
     <h2 class="getInvolvedHead"><b>Get Involved</b></h2>
-      <p> Volunteers will engage residents to address the<br>
-          challenges the city faces. After the success of the<br>
-          One ABQ: Challenge, we will continue to connect<br>
-          those who want to be involved to a volunteer<br> opportunity, making sure that everyone can play a<br>
-          role in moving our city forward.
-      </p>
+      <?php perch_content('getInvolvedHeading') class="getInvolvedHead"; ?>
+    <?php perch_content('getInvolvedText'); ?>
     <a href="https://ec.volunteernow.com/custom/1503/index.php"> <button class="volunteerButton"> Volunteer </button></a>
   </div>
     </div>

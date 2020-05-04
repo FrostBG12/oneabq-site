@@ -39,17 +39,9 @@
     <video src="aboutVid.mp4" type="video/mp4" controls width="100%" poster="about-video-thumbnail.png"></video>
   </div>
   <div class="aboutABQ">
-    <img src="logofund.png" class="vertLogo">
+    <?php perch_content('splashImage'); ?>
   <div class="text">
-    <p>
-      One Albuquerque is more than a slogan; it’s
-      an aspiration, a call to action,<br> a 
-      reminder that the best way to tackle our challenges
-      is by facing them<br> together. 
-      Not one leader alone can fix our problems. We’ve each got
-      to step<br> up for
-      our block, our neighborhood.
-    </p>
+    <?php perch_content('splashText'); ?>
   </div>
   </div>
   <div class="board">
